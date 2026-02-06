@@ -1,0 +1,61 @@
+# -----------------------------
+# Core GraphRAG Assistant Setup
+# -----------------------------
+
+# LLM + RAG Framework
+langchain
+openai
+
+# Knowledge Graph Database
+neo4j
+
+# PDF Text Extraction
+pymupdf
+
+# Chat Interface
+streamlit
+
+# Utilities
+tqdm
+python-dotenv
+
+# -----------------------------
+# Entity Extraction (No spaCy)
+# -----------------------------
+transformers
+torch
+
+# Fix for transformers dependency
+pillow
+
+# -----------------------------
+# Vector Search (Pure Python)
+# -----------------------------
+numpy
+pandas
+scikit-learn
+
+openai==1.30.5
+
+pip install google-generativeai
+
+
+
+===============================
+langchain
+neo4j
+pymupdf
+streamlit
+tqdm
+python-dotenv
+
+transformers
+torch
+pillow
+
+numpy
+pandas
+scikit-learn
+sentence-transformers
+
+google-generativeai
